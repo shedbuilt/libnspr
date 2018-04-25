@@ -1,0 +1,6 @@
+NAME=libnspr
+VERSION=4.19
+REVISION=1
+LICENSE=MPL-2.0
+SRC=https://archive.mozilla.org/pub/nspr/releases/v4.19/src/nspr-4.19.tar.gz
+SRCMD5=e1d27282ad6286b69d6b9fd07201d3dd
