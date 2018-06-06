@@ -6,5 +6,5 @@ sed -i 's#$(LIBRARY) ##' config/rules.mk &&
             --with-mozilla \
             --with-pthreads \
             $([[ $SHED_NATIVE_TARGET =~ ^aarch64-.* ]] && echo --enable-64bit) &&
-make -j $SHED_NUMJOBS &&
-make DESTDIR="$SHED_FAKEROOT" install
+make -j $SHED_NUM_JOBS &&
+make DESTDIR="$SHED_FAKE_ROOT" install
